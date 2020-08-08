@@ -23,14 +23,3 @@
     padding: 1.2 1.6rem;
     font: 1.6rem Archivo;
 }
-
-.textarea-block:focus-within::after {
-    width: calc(100% - 3.2rem);
-    height: 2px;
-    content: '';
-    background: var(--color-primary-light);
-    position: absolute;
-    left: 1.8rem;
-    right: 1.6rem;
-    bottom:0px;
-}
