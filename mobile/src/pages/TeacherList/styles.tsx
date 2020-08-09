@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     }, 
 
     label: {
+        flexDirection: 'row',
         color: '#d4c5ff',
         fontFamily: 'Poppins_400Regular'
     },
@@ -65,6 +66,24 @@ const styles = StyleSheet.create({
         fontFamily: 'Archivo_700Bold',
         fontSize: 16,
     },
+
+    inputSelect: {
+        height: 50,
+        borderRadius: 15,
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 16,
+        marginBottom: 16,
+        width: 135,
+    },
+
+    viewBorder: {
+        borderRadius: 10, 
+        borderWidth: 1, 
+        borderColor: '#d4c5ff',
+        backgroundColor: '#fff',
+        height: 50,
+    }
 });
 
 export default styles;

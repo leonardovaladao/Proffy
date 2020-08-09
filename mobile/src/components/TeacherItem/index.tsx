@@ -64,7 +64,7 @@ const TeacherItem:React.FunctionComponent<TeacherItemProps> = ({teacher, favorit
             </View>
 
             <View style={styles.profileInfo}>
-                <Text style={styles.name}>{teacher.name} X</Text>
+                <Text style={styles.name}>{teacher.name}</Text>
                 <Text style={styles.subject}>{teacher.subject}</Text>
             </View>
 
