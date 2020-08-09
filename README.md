@@ -13,7 +13,7 @@ Web version of the app:<br />
 ![Web app](demo/NLW2-W.gif)
 
 Web version on mobile:<br />
-<img src="demo/NLW2-WM.gif" alt="Mobile web version" width="300"/>
+<img align="center" src="demo/NLW2-WM.gif" alt="Mobile web version" width="300"/>
 
 Mobile version:<br />
-<img src="demo/NLW2-M.gif" alt="Mobile version" width="300"/>
+<img align="center" src="demo/NLW2-M.gif" alt="Mobile version" width="300"/>
