@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import TeacherList from './pages/TeacherList';
 import TeacherForm from './pages/TeacherForm';
 
 function Routes() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Route path="/" exact component={Landing}></Route>
             <Route path="/study" component={TeacherList}></Route>
             <Route path="/give-classes" component={TeacherForm}></Route>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
